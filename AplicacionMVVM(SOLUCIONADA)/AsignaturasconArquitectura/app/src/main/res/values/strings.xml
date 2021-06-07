@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Asignaturas con Arquitectura</string>
+    <string name="action_settings">Settings</string>
+    <string name="description">Descripción</string>
+    <string name="teacher">Profesor</string>
+    <string name="name">Nombre Asignatura</string>
+    <string name="save">Guardar</string>
+</resources>

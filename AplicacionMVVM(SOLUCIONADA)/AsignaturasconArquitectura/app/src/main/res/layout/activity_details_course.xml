@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="es.uniovi.imovil.asignaturasconarquitectura.DetailsCourseActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        style="@style/course_teacher"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nombre:" />
+
+    <TextView
+        android:id="@+id/details_name"
+        style="@style/course_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/textView3"
+        style="@style/course_teacher"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Profesor:" />
+
+    <TextView
+        android:id="@+id/details_teacher"
+        style="@style/course_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/textView5"
+        style="@style/course_teacher"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Descripción:" />
+
+    <TextView
+        android:id="@+id/details_description"
+        style="@style/course_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
