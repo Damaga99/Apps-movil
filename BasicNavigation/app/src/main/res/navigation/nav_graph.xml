@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/hostFragment">
+
+    <fragment
+        android:id="@+id/hostFragment"
+        android:name="es.imovildani.basicnavigation.HostFragment"
+        android:label="INICIO"
+        tools:layout="@layout/fragment_host">
+        <action
+            android:id="@+id/action_hostFragment_to_FirstScreen"
+            app:destination="@id/FirstScreen" />
+        <action
+            android:id="@+id/action_hostFragment_to_secondScreen"
+            app:destination="@id/secondScreen" />
+        <action
+            android:id="@+id/action_hostFragment_to_thirdScreen"
+            app:destination="@id/thirdScreen" />
+    </fragment>
+    <fragment
+        android:id="@+id/FirstScreen"
+        android:name="es.imovildani.basicnavigation.FirstScreen"
+        android:label="PANTALLA 1"
+        tools:layout="@layout/fragment_first_screen" />
+    <fragment
+        android:id="@+id/secondScreen"
+        android:name="es.imovildani.basicnavigation.SecondScreen"
+        android:label="PANTALLA 2"
+        tools:layout="@layout/fragment_second_screen">
+        <action
+            android:id="@+id/action_from2_to_3"
+            app:destination="@id/thirdScreen"
+            app:enterAnim="@anim/slide_in_left"
+            app:exitAnim="@anim/slide_out_right"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_left" />
+    </fragment>
+    <fragment
+        android:id="@+id/thirdScreen"
+        android:name="es.imovildani.basicnavigation.ThirdScreen"
+        android:label="PANTALLA 3"
+        tools:layout="@layout/fragment_third_screen">
+        <argument
+            android:name="origen"
+            android:defaultValue="desconocido"
+            app:argType="string" />
+    </fragment>
+
+</navigation>
+
+
+

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tanteo(final)</string>
+    <string name="eqtiqueta_local">Local</string>
+    <string name="etiqueta_visitante">Away</string>
+    <string name="etiqueta_estadistica">Statistics</string>
+    <string name="title_activity_puntuacion">Points</string>
+</resources>

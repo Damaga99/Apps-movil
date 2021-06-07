@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="asignaturas">
+        <item>@string/tituloLista1</item>
+        <item>@string/Informatica_Movil</item>
+        <item>@string/Proyectos</item>
+        <item>@string/CPM</item>
+        <item>@string/TPP</item>
+    </string-array>
+    <string-array name="profesores">
+        <item>@string/tituloLista2</item>
+        <item>@string/Jose_Ramon</item>
+        <item>@string/Jorge</item>
+        <item>@string/Joaquin</item>
+        <item>@string/Angel</item>
+    </string-array>
+</resources>

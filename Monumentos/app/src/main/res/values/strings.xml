@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Trabajo</string>
+
+
+    <string name="title_activity_maps">Map</string>
+
+    <string name="search_title">Buscar</string>
+
+
+    <string name="Nombre">Nombre:</string>
+    <string name="Descripcion">Descripcion:</string>
+    <string name="Linea">Linea:</string>
+    <string name="etiqueta_RRSS">Redes Sociales</string>
+    <string name="etiqueta_contacto">Contacto</string>
+    <string name="etiqueta_Telefono">Telefono</string>
+    <string name="etiqueta_email">Email</string>
+    <string name="etiqueta_Fax">Fax</string>
+    <string name="etiqueta_web">Web</string>
+    <string name="etiqueta_direccion">Direccion</string>
+    <string name="etiqueta_localizacion">Localizacion</string>
+    <string name="etiqueta_observaciones">Observaciones</string>
+    <string name="etiqueta_kml">Kml</string>
+    <string name="etiqueta_pluscode">Pluscode</string>
+    <string name="etiqueta_etiquetas">Etiqueta</string>
+    <string name="etiqueta_preguntas">Preguntas frecuentes</string>
+    <string name="etiqueta_Idioma">Idioma</string>
+    <string name="etiqueta_materias">Materias</string>
+    <string name="Monumentos">Monumentos Gijon</string>
+
+
+    <string name="Ajustes">Ajustes</string>
+    <string name="search_hint">Buscar</string>
+</resources>

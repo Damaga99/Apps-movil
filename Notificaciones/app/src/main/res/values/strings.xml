@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Notificaciones</string>
+    <string name="channel_name">Nombre canal</string>
+    <string name="channel_description">Descripcion canal</string>
+    <string name="texto"> Serguéi Vasílievich Rajmáninov fue un compositor, pianista y director de orquesta ruso, uno de los últimos grandes compositores
+        posrománticos europeos y considerado uno de los pianistas más influyentes del siglo xx.
+Nacido en una familia de músicos, Rajmáninov comenzó a tocar el piano a los cuatro años. Se graduó en el Conservatorio de Moscú en 1892 y ya había compuesto
+        varias piezas para piano y orquestales. En 1897, después de la reacción crítica negativa a su Sinfonía n.º 1, entró en una depresión de cuatro años y
+        compuso poco hasta que la exitosa terapia le permitió completar su Concierto para piano n.º 2, recibido con entusiasmo en 1901. Durante los siguientes
+        dieciséis años, dirigió en el Teatro Bolshói, se mudó a Dresde y realizó su primera gira por Estados Unidos.
+Tras la Revolución rusa, Rajmáninov y su familia abandonaron Rusia; en 1918, se establecieron en los Estados Unidos, primero en la ciudad de Nueva York. Con su
+        principal fuente de ingresos provenientes del piano y la realización de actuaciones, los exigentes horarios de las giras llevaron a una reducción en su
+        tiempo para la composición. Entre 1918 y 1943, completó solo seis obras, entre las que se incluyen Rapsodia sobre un tema de Paganini, la Tercera Sinfonía
+        y Danzas sinfónicas. En 1942, su mala salud lo llevó a mudarse a Beverly Hills. Un mes antes de su muerte por melanoma avanzado, obtuvo la ciudadanía estadounidense.
+En la obra de Rajmáninov, las influencias tempranas de Piotr Ilich Chaikovski, Nikolái Rimski-Kórsakov, Mili Balákirev, Modest Músorgski y otros compositores rusos dieron
+        paso a un estilo personal notable por su melodismo, expresividad y ricos colores orquestales.3​ Solía incluir a menudo el piano en sus composiciones y exploró
+        las posibilidades expresivas del instrumento a través de sus propias habilidades como pianista.</string>
+</resources>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Nine-patch</string>
+    <string name="cadenacorta"> Cadena Corta</string>
+    <string name="cadenalarga"> Cadena bastante mas larga que ocupa mas espacio</string>
+</resources>

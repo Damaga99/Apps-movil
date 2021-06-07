@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+            android:title="@string/personal_preferences">
+
+        <EditTextPreference
+                android:key="name_preference"
+                android:title="@string/title_name_preference"
+                android:summary="@string/summary_name_preference"
+                android:dialogTitle="@string/dialog_title_name_preference" />
+
+        <EditTextPreference
+                android:key="email_preference"
+                android:title="@string/title_email_preference"
+                android:summary="@string/summary_email_preference"
+                android:dialogTitle="@string/dialog_title_email_preference" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+            android:title="@string/courses_preferences">
+
+		<CheckBoxPreference
+                android:key="show_teachers_preference"
+                android:title="@string/title_show_teachers_preference"
+                android:summary="@string/summary_show_teachers_preference" />
+		
+		<EditTextPreference
+                android:key="@string/export_preference"
+                android:title="@string/title_export_preference"
+                android:summary="@string/summary_export_preference"
+                android:dialogTitle="@string/dialog_title_export_preference" />
+
+    </PreferenceCategory>
+	
+</PreferenceScreen>

@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    tools:context=".MonumentoDetailsActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="399dp"
+        tools:layout_editor_absoluteY="171dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/etiqueta_Nombre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Nombre"
+                android:textColor="#2F3033"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/txt_cda_Nombre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:text="@{temp.name}"
+                android:textSize="14sp"
+                tools:text="Nombre" />
+
+            <TextView
+                android:id="@+id/etiqueta_Descrpcion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Descripcion"
+                android:textColor="#2F3033"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/txt_cda_Descripcion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:text="@{temp.teacher}"
+                android:textSize="14sp"
+                tools:text="Descripcion" />
+
+            <TextView
+                android:id="@+id/etiqueta_Linea"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Linea"
+                android:textColor="#2F3033"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/txt_cda_linea"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@{temp.description}"
+                android:textSize="14sp"
+                tools:text="Linea" />
+
+            <TextView
+                android:id="@+id/etiqueta_RRSS"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/etiqueta_RRSS"
+                android:textColor="#2F3033"
+                android:textSize="20dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/txt_Facebook"
+                    android:layout_width="17dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Facebook" />
+
+                <TextView
+                    android:id="@+id/txt_GooglePlus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="GooglePlus" />
+
+                <TextView
+                    android:id="@+id/txt_Instagram"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Instagram" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/txt_Linkedin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Linkedin" />
+
+                <TextView
+                    android:id="@+id/txt_Pinterest"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Pinterest" />
+
+                <TextView
+                    android:id="@+id/txt_Twitter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Twitter" />
+
+                <TextView
+                    android:id="@+id/txt_Youtube"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Youtube" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/etiqueta_contacto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/etiqueta_contacto"
+                android:textColor="#2F3033"
+                android:textSize="20dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/etiqueta_telefono"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/etiqueta_Telefono"
+                    android:textColor="#2F3033"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/txt_telefono"
+                    android:layout_width="99dp"
+                    android:layout_height="wrap_content"
+                    android:text="Telefono" />
+
+                <TextView
+                    android:id="@+id/etiqueta_fax"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/etiqueta_Fax"
+                    android:textColor="#2F3033"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/txt_fax"
+                    android:layout_width="68dp"
+                    android:layout_height="wrap_content"
+                    android:text="Fax" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/etiqueta_email"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/etiqueta_email"
+                    android:textColor="#2F3033"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/txt_email"
+                    android:layout_width="143dp"
+                    android:layout_height="wrap_content"
+                    android:text="email" />
+
+                <TextView
+                    android:id="@+id/etiqueta_web"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="@string/etiqueta_web"
+                    android:textColor="#2F3033"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/txt_web"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="web" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/etiqueta_direccion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/etiqueta_direccion"
+                android:textColor="#2F3033"
+                android:textSize="20dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/txt_direccion"
+                    android:layout_width="169dp"
+                    android:layout_height="wrap_content"
+                    android:text="Direccion" />
+
+                <TextView
+                    android:id="@+id/txt_distrito"
+                    android:layout_width="55dp"
+                    android:layout_height="wrap_content"
+                    android:text="Distrito" />
+
+                <TextView
+                    android:id="@+id/txt_ciudad"
+                    android:layout_width="54dp"
+                    android:layout_height="wrap_content"
+                    android:text="Ciudad" />
+
+                <TextView
+                    android:id="@+id/txt_provincia"
+                    android:layout_width="103dp"
+                    android:layout_height="wrap_content"
+                    android:text="Provincia" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/txt_postal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Codigo postal" />
+
+                <TextView
+                    android:id="@+id/txt_horario"
+                    android:layout_width="296dp"
+                    android:layout_height="wrap_content"
+                    android:text="Horario" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/etiqueta_localizacion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/etiqueta_localizacion"
+                android:textColor="#2F3033"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/txt_localizacion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="localizacion" />
+
+            <TextView
+                android:id="@+id/etiqueta_observaciones"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/etiqueta_observaciones"
+                android:textColor="#2F3033"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/txt_observaciones"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Observaciones" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/etiqueta_kml"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/etiqueta_kml"
+                    android:textColor="#2F3033"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/txt_kml"
+                    android:layout_width="69dp"
+                    android:layout_height="wrap_content"
+                    android:text="kml" />
+
+                <TextView
+                    android:id="@+id/etiqueta_pluscode"
+                    android:layout_width="73dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/etiqueta_pluscode"
+                    android:textColor="#2F3033"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/txt_pluscode"
+                    android:layout_width="106dp"
+                    android:layout_height="wrap_content"
+                    android:text="Pluscode" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/etiqueta_etiqueta"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/etiqueta_etiquetas"
+                    android:textColor="#2F3033"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/txt_etiquetas"
+                    android:layout_width="314dp"
+                    android:layout_height="wrap_content"
+                    android:text="Etiquetas" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/etiqueta_preguntas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/etiqueta_preguntas"
+                android:textColor="#2F3033"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/txt_preguntas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Preguntas" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/etiqueta_idioma"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/etiqueta_Idioma"
+                    android:textColor="#2F3033"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/txt_idioma"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Idioma" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/etiqueta_materias"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/etiqueta_materias"
+                    android:textColor="#2F3033"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/txt_materias"
+                    android:layout_width="265dp"
+                    android:layout_height="wrap_content"
+                    android:text="materias" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView38"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">NewRecyclerPractice</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+
+
+    <string name="tituloLista1">Lista de asignaturas:</string>
+    <string name="Informatica_Movil">Informatica Movil</string>
+    <string name="Proyectos">Proyectos</string>
+    <string name="CPM">CPM</string>
+    <string name="TPP">TPP</string>
+    <string name="tituloLista2">Lista de profesores:</string>
+    <string name="Jose_Ramon">Jose Ramon</string>
+    <string name="Jorge">Jorge</string>
+    <string name="Joaquin">Joaquin</string>
+    <string name="Angel">Angel</string>
+</resources>
